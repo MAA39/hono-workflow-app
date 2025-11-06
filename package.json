@@ -1,0 +1,20 @@
+{
+  "name": "hono-workflow-app",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nitro dev",
+    "build": "nitro build",
+    "start": "node .output/server/index.mjs",
+    "preview": "nitro preview"
+  },
+  "dependencies": {
+    "hono": "^4.6.14",
+    "nitro": "^2.10.4",
+    "workflow": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.1",
+    "typescript": "^5.6.3"
+  }
+}
